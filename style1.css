@@ -1,0 +1,201 @@
+/* ---------- Global Reset ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f1f3f6;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2874f0;
+    color: white;
+    padding: 10px 50px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* ---------- Logo ---------- */
+.nav-logo .logo {
+    background-image: url('flipkart-logo.png'); /* Replace with your logo path */
+    background-size: cover;
+    height: 35px;
+    width: 120px;
+}
+
+/* ---------- Search Bar ---------- */
+.nav-search {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    width: 45%;
+    padding: 5px 10px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.search-icon {
+    color: #2874f0;
+    margin-right: 8px;
+    font-size: 16px;
+}
+
+/* ---------- Login Section ---------- */
+.sign-in {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: white;
+    color: #2874f0;
+    padding: 6px 12px;
+    border-radius: 3px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.sign-in:hover {
+    background-color: #f0f0f0;
+}
+
+.sign-in .angle {
+    color: #2874f0;
+}
+
+/* ---------- Cart Section ---------- */
+.cart, .shop {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.cart i, .shop i {
+    font-size: 18px;
+}
+
+.cart a, .shop a {
+    color: white;
+    text-decoration: none;
+}
+
+/* ---------- More Icon ---------- */
+.more i {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* ---------- Panel (Category Bar) ---------- */
+.panel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    overflow-x: auto;
+}
+
+.panel-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+    min-width: 90px;
+}
+
+.panel-content:hover {
+    transform: scale(1.05);
+}
+
+.panel-img {
+    width: 64px;
+    height: 64px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.panel-content p {
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+/* ---------- Hero Section ---------- */
+.hero-section {
+    background-image: url('hero-banner.webp'); /* Replace with your hero image */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin: 15px auto;
+    width: 95%;
+    border-radius: 5px;
+}
+
+.shop-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+}
+
+.box-img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.navbar, .shop-section {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+        padding: 10px 20px;
+    }
+
+    .nav-search {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .panel {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    .panel-content {
+        min-width: 70px;
+    }
+
+    .hero-section {
+        height: 200px;
+    }
+}
