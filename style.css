@@ -224,3 +224,171 @@ div {
     opacity: 0.95;
     cursor: pointer;
 }
+
+/** Shop Hero Section **/
+.shop-hero2a {
+    height: 310px;
+    background-color: white;
+    margin: 20px 15px 0px 15px;
+}
+
+.hero2-img {
+    background-size: contain;
+    height: 100%;
+}
+
+/** -------------- Shop Section3 ----------------- **/
+.shop-section3a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 250px;
+    background-color: white;
+    margin: 20px 15px 0px 15px;
+}
+
+.shop-section3b {
+    height: 250px;
+    width: 465px;
+}
+
+.img-section {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+/** ---------------- Shop Section4 ----------------- **/
+
+.shop-section4a {
+    display: flex;
+    justify-content: space-around;
+    height: 557px;
+    margin: 20px 15px 0px 15px;
+}
+
+.shop-section4b {
+    width: 385px;
+    height: 557px;
+    background-color: white;
+}
+
+.section4-text {
+    width: 385px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.section4-text1 {
+    width: 321px;
+    height: 30px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.section4-symbol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 4px;
+}
+
+.sec4-symbol1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background-color: #2a55e5;
+}
+
+.sec4-symbol2 {
+    margin: 4px;
+}
+
+
+.section4-img {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 378px;
+    height: 470px;
+    padding: 12px 4px 12px 4px;
+    z-index: 100;
+    padding-left: 17px;
+}
+
+.sec4-img-box1 {
+    width: 177.16px;
+    height: 233.16px;
+}
+
+.sec4-img-box1a {
+    width: 169.16px;
+    height: 225.16px;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    padding: 0px 0px 12px;
+}
+
+.sec4-img-box2 {
+    width: 167.16px;
+    height: 211.16px;
+    padding: 12px 12px 0px;
+}
+
+.sec4-img-box3 {
+    display: block;
+    justify-content: center;
+    width: 143.16px;
+    height: 135.16px;
+    padding: 8px 8px 0px;
+}
+
+.sec4-img-box4 {
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sec4-textbox1 {
+    width: 143.16px;
+    height: 64px;
+    padding: 16px 0px 0px;
+}
+
+.sec4-textbox1a {
+    width: 143.16px;
+    height: 24px;
+    font-size: 17px;
+}
+
+.sec4-textbox1b {
+    width: 143.16px;
+    height: 24px;
+}
+
+.sec4-textbox1b p {
+    font-weight: bold;
+    font-size: 17px;
+    color: #108934;
+}
+
+.sec4-singleimg {
+    width: 385px;
+    height: 539px;
+}
+
+.sec4-singleimg1 {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
