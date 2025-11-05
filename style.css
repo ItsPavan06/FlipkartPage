@@ -383,7 +383,7 @@ div {
 
 .sec4-singleimg {
     width: 385px;
-    height: 539px;
+    height: 557px;
 }
 
 .sec4-singleimg1 {
@@ -391,4 +391,417 @@ div {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.sec4-img-box4:hover {
+    transform: scale(1.05);
+    /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); */
+    border-radius: 6px;
+    opacity: 0.95;
+    cursor: pointer;
+}
+
+/** -------------------- Footer Section --------------------- **/
+.foot-panel {
+    height: 354px;
+    margin-top: 30px;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.foot-panel1 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 245px;
+    padding: 40px 60px 0px;
+}
+
+.foot-panel1a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.foot-panel-head {
+    width: 226.64px;
+    height: 15px;
+    color: #878787;
+    margin: 0px 0px 12px;
+    font-size: 12px;
+}
+
+.foot-panel-item {
+    width: 226.64px;
+    height: 18px;
+    font-size: 12px;
+}
+
+.foot-panel2 {
+    height: 69px;
+    margin: 40px 0px 0px;
+    padding: 25px 0px;
+    border-top: 0.5px solid white ;
+}
+
+.foot-panel2a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+    height: 16px;
+}
+
+/** ---------------------------------------------- Responsive ------------------------------------------------- **/
+/* ================================================================
+   ✅ 1280px — Large laptops & small desktops
+=================================================================== */
+@media (max-width: 1280px) {
+    .nav-search {
+        width: 45%;
+    }
+    .panel-content {
+        width: 8%;
+    }
+    .first-img, .shop-section3a, .section4-img {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .img-box {
+        width: 180px;
+    }
+}
+
+
+/* ================================================================
+   ✅ 1219px — Standard laptops
+=================================================================== */
+@media (max-width: 1219px) {
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .nav-search {
+        width: 70%;
+        order: 3;
+    }
+
+    .panel {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .panel-content {
+        width: 15%;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .panel-img {
+        height: 90px;
+    }
+
+    .shop-section,
+    .shop-section3a,
+    .shop-section4a {
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img-box {
+        width: 180px;
+        margin: 10px;
+    }
+
+    .shop-section4b {
+        width: 380px;
+        margin: 10px auto;
+    }
+
+    .section4-img {
+        justify-content: space-evenly;
+    }
+
+    .foot-panel1a {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+/* ================================================================
+   ✅ 1024px — Tablets (landscape) & small laptops
+=================================================================== */
+@media (max-width: 1024px) {
+    .navbar {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 10px 20px;
+        gap: 10px;
+    }
+
+    .nav-search {
+        width: 85%;
+        margin-top: 8px;
+    }
+
+    .panel {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        height: auto;
+    }
+
+    .panel-content {
+        width: 20%;
+        text-align: center;
+    }
+
+    .hero-section {
+        height: 220px;
+        margin: 15px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .first-img {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .img-box {
+        width: 200px;
+    }
+
+    .shop-section3a {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        height: auto;
+    }
+
+    .shop-section3b {
+        width: 90%;
+        height: 230px;
+    }
+
+    .shop-section4a {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        height: auto;
+    }
+
+    .shop-section4b {
+        width: 90%;
+    }
+
+    .sec4-img-box1 {
+        width: 45%;
+    }
+
+    .foot-panel1a {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .foot-panel1b {
+        margin: 10px;
+    }
+}
+
+
+/* ================================================================
+   ✅ 850px — Tablets (portrait)
+=================================================================== */
+@media (max-width: 850px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 10px;
+    }
+
+    .nav-search {
+        width: 95%;
+    }
+
+    .panel {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        padding: 10px;
+    }
+
+    .panel-content {
+        width: 25%;
+        margin-bottom: 10px;
+    }
+
+    .hero-section {
+        height: 200px;
+    }
+
+    .first-img {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .img-box {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+
+    .shop-section3a {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .shop-section3b {
+        width: 95%;
+        height: 200px;
+    }
+
+    .shop-section4a {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        height: auto;
+    }
+
+    .shop-section4b {
+        width: 95%;
+    }
+
+    .foot-panel1a {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .foot-panel1b {
+        margin: 10px;
+    }
+}
+
+
+/* ================================================================
+   ✅ 450px — Mobile phones
+=================================================================== */
+@media (max-width: 450px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav-logo {
+        height: 40px;
+        width: 70px;
+    }
+
+    .nav-search {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .sign-in span,
+    .cart a,
+    .shop a {
+        display: none;
+    }
+
+    .panel {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        padding: 10px;
+    }
+
+    .panel-content {
+        width: 40%;
+        margin: 5px 0;
+    }
+
+    .panel-img {
+        height: 70px;
+    }
+
+    .hero-section {
+        height: 150px;
+    }
+
+    .first-img {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-box {
+        width: 90%;
+        padding: 8px;
+    }
+
+    .img1-text p, .img1-text b {
+        font-size: 14px;
+    }
+
+    .shop-text {
+        justify-content: center;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .shop-section3b {
+        width: 95%;
+        height: 180px;
+    }
+
+    .shop-section4a {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shop-section4b {
+        width: 95%;
+        margin: 10px 0;
+    }
+
+    .section4-text1 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .sec4-img-box1 {
+        width: 80%;
+    }
+
+    .foot-panel1a {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .foot-panel2a {
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+
+    .foot-panel {
+        font-size: 11px;
+        height: auto;
+        padding-bottom: 20px;
+    }
 }
