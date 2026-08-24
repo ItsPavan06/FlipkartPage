@@ -74,8 +74,9 @@ FilpkartPage/
 ├── ...
 │
 └── README.md
+```
 
-🎯 Purpose of the Project
+## 🎯 Purpose of the Project
 
 The main purpose of this project was to practice:
 
@@ -89,11 +90,13 @@ Background images
 Spacing and positioning
 Creating reusable UI sections
 Building an e-commerce style webpage from scratch
-💡 What I Learned
+
+
+## 💡 What I Learned
 
 Through this project, I gained practical experience in building a complete webpage using HTML and CSS and learned how to make a fixed desktop-oriented layout responsive across different screen sizes.
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 This project is created for educational and practice purposes only.
 
@@ -101,7 +104,7 @@ It is inspired by the visual layout of an older Flipkart webpage and is not affi
 
 All product names, images, logos, and trademarks belong to their respective owners.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Pavan
 
