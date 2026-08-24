@@ -6,7 +6,7 @@ This project recreates the layout and visual appearance of an older version of t
 
 ## 🚀 Live Demo
 
-[View the Website](https://itspavan06.github.io/FilpkartPage/)
+[View the Website](https://flip-kart-page-demo.netlify.app)
 
 ## 📌 Features
 
